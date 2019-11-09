@@ -30,7 +30,6 @@
 			$email = $_POST["email"];
 			if(($file = fopen("test.csv", "r+")) !== FALSE){
 				$info = array();
-				echo "<table border = 1>";
 				while (($data = fgetcsv($file, 1000, ",")) !== FALSE){
 					array_push($info, $data);
 				}
