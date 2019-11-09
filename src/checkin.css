@@ -1,0 +1,34 @@
+#main{
+	margin: auto;
+	font-family: "Impact";
+	text-align: center;
+}
+
+
+#prompt{
+	font-size: 20;
+}
+
+.input{
+	margin:auto;
+	display: block;
+	height: 30;
+	width: 250;
+}
+
+.submit{
+	height: 40px;
+	width: 200px;
+	font-family: "Impact";
+	font-size: 16;
+	background: #8B8C8E;
+	border-color: #ABACAE;
+}
+
+body{
+	background: #E32526;
+}
+
+h1{
+	font-size: 50;
+}

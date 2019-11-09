@@ -1,0 +1,31 @@
+#main{
+	margin: auto;
+	font-family: "Impact";
+	text-align: center;
+}
+
+.input{
+	margin:auto;
+	display: block;
+}
+
+#field{
+	font-size: 20;
+}
+
+.submit{
+	height: 40px;
+	width: 200px;
+	font-family: "Impact";
+	font-size: 16;
+	background: #8B8C8E;
+	border-color: #ABACAE;
+}
+
+body{
+	background: #E32526;
+}
+
+h1{
+	font-size: 50;
+}
