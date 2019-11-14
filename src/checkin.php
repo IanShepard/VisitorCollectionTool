@@ -22,6 +22,8 @@
 </html>
 
 <?php
+include_once "findName.php";
+
 if(!empty($_POST))
 {
 	if(!empty($_POST["name"]))
