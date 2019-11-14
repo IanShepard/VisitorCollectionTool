@@ -24,7 +24,7 @@
 
 <?php
 	include_once "readCSV.php";
-	include_once "checkRegistration.php"
+	include_once "checkRegistration.php";
 	if(!empty($_POST)){
 		if(!empty($_POST["fname"]) and !empty($_POST["lname"]) and !empty($_POST["email"])){
 			$fname = $_POST["fname"];
