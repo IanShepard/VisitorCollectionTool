@@ -23,46 +23,40 @@
 </html>
 
 <?php
+	include_once "readCSV.php";
+	include_once "checkRegistration.php"
 	if(!empty($_POST)){
 		if(!empty($_POST["fname"]) and !empty($_POST["lname"]) and !empty($_POST["email"])){
 			$fname = $_POST["fname"];
 			$lname = $_POST["lname"];
 			$email = $_POST["email"];
-			if(($file = fopen("test.csv", "r+")) !== FALSE){
-				$info = array();
-				while (($data = fgetcsv($file, 1000, ",")) !== FALSE){
-					array_push($info, $data);
+			$csv = "test.csv";
+			$registration = [$fname, $lname, $email, 1];
+			
+			if(($file = fopen($csv, "r+")) !== FALSE){
+				$info = readCSV($file);
+				if(checkRegistration($info, $email) == FALSE){
+					fputcsv($file, $registration);
+					echo "<script type='text/javascript'>";
+					echo "alert('Registration Successful!.');";
+					echo "window.location = ('checkin.php');";
+					echo "</script>";
 				}
+
+				else{
+					echo '<script language="javascript">';
+					echo 'alert("User already exists, try again!")';
+					echo '</script>';
+				}
+
+				fclose($file);
 			}
+
 			else{
 				echo "File Not Found!";
 			}
 
-			$registration = [$fname, $lname, $email, 1];
-			$registered = FALSE;
-			echo sizeof($info);
-			for($i = 0; $i < sizeof($info); $i++){
-				if($email == $info[$i][2]){
-					$registered = TRUE;
-				}
-			}
-
-			if($registered !== TRUE){
-				fputcsv($file, $registration);
-				echo '<script language="javascript">';
-				echo 'alert("Registration successful, you are now checked in!")';
-				echo '</script>';
-				sleep(4);
-				header("Location: checkin.php");
-			}
-
-			else{
-				echo '<script language="javascript">';
-				echo 'alert("User already exists, try again!")';
-				echo '</script>';
-			}
-
-			fclose($file);
+			
 		}
 		
 		else{
@@ -71,5 +65,8 @@
 			echo '</script>';
 		}
 	}
+
+
+	
 
 ?>
