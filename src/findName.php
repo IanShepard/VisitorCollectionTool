@@ -1,7 +1,7 @@
 <?php
 function findName($fullName, $info)
     {
-        $name = exlpode($fullName, " ");
+        $name = explode($fullName, " ");
         $fname = $name [0];
         $lname =  $name [1];
         $matchL = array();

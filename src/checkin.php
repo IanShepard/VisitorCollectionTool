@@ -23,12 +23,14 @@
 
 <?php
 include_once "findName.php";
+include_once "readCSV.php";
 
 if(!empty($_POST))
 {
 	if(!empty($_POST["name"]))
 	{
 		$name = $_POST["name"];
+		echo $name;
 		if(($file = fopen("test.csv", "r+")) !== FALSE)
 		{
 			$info =  readCSV($file);
@@ -38,7 +40,8 @@ if(!empty($_POST))
 			echo "File Not Found!";
 		}
 
-		$names = $findName($name, $info);
+		$names = findName($name, $info);
+		var_dump($names);
 		echo '<table border = 1>';
 		for ($i = 0; $i < sizeof($names); $i++)
 		{
