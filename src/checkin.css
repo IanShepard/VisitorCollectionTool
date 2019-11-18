@@ -32,3 +32,8 @@ body{
 h1{
 	font-size: 50;
 }
+
+.table table{
+    margin-left:auto; 
+    margin-right:auto;
+}

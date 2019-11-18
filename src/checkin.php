@@ -9,58 +9,50 @@
 			<form method = "post">
 				<span id = "prompt">Enter your name</span>
 				<br>
-				<input class = "input" type = "text" name = "name" onchange="" ="checkName('')">
+				<input class = "input" type = "text" name = "name">
 				<br><br>
 				<input class = "submit" type = "submit" value = "Search">
 				<br><br>
 			</form>
-			<form method = "post" action = "register.php">
-				<button class = "submit">Register</button>
-			</form>
+			<button class = "submit" onclick="register('')">Register</button>
+		</div>
+		<br><br><br>
+		<div class = "table">
+			<?php
+				include_once "findName.php";
+				include_once "readCSV.php";
+
+				if(!empty($_POST)){
+					if(!empty($_POST["name"])){
+						$name = $_POST["name"];
+						$csv = "test.csv";
+						if(($file = fopen($csv, "r+")) !== FALSE){
+							$info = readCSV($file);
+							$names = findName($name, $info);
+							echo '<table border = 1>';
+							for ($i = 0; $i < sizeof($names); $i++){
+								echo '<tr>';
+								for ($j = 0; $j < 3; $j++){
+									echo '<td>'.$names[$i][$j].'</td>';
+								}
+								echo '</tr';
+							}
+							echo '</table>';
+							fclose($file);
+						}
+						
+							
+						else{
+							echo "File Not Found!";
+						}
+					}
+					else{
+						echo '<script language="javascript">';
+						echo 'alert("Some fields are empty, try again!")';
+						echo '</script>';
+					}	
+				}		
+			?>
 		</div>
 	</body>
 </html>
-
-<?php
-include_once "findName.php";
-include_once "readCSV.php";
-
-if(!empty($_POST))
-{
-	if(!empty($_POST["name"]))
-	{
-		$name = $_POST["name"];
-		echo $name;
-		if(($file = fopen("test.csv", "r+")) !== FALSE)
-		{
-			$info =  readCSV($file);
-		}
-		else
-		{
-			echo "File Not Found!";
-		}
-
-		$names = findName($name, $info);
-		var_dump($names);
-		echo '<table border = 1>';
-		for ($i = 0; $i < sizeof($names); $i++)
-		{
-			echo '<tr>';
-			for ($j = 0; $j < 3; $j++)
-			{
-				echo '<td>'.$names[$j].'</td>';
-			}
-			echo '</tr';
-		}
-		echo '</table>';
-
-		fclose($file);
-	}
-		else
-		{
-			echo '<script language="javascript">';
-			echo 'alert("Some fields are empty, try again!")';
-			echo '</script>';
-		}
-	}
-		?>
