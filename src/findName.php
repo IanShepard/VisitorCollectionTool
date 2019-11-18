@@ -7,7 +7,7 @@ function findName($fullName, $info)
         $matchL = array();
         for ($i = 0; $i < sizeof($info); $i++)
         {
-            if ($info[$i][1] == $lname)
+            if ($info[$i][1] == $lname and $info[$i][3] == 0)
             {
                 array_push($matchL, $info[$i]);
             }

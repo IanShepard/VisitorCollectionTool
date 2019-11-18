@@ -29,18 +29,23 @@
 						if(($file = fopen($csv, "r+")) !== FALSE){
 							$info = readCSV($file);
 							$names = findName($name, $info);
-							echo '<table border = 1>';
-							for ($i = 0; $i < sizeof($names); $i++){
-								echo '<tr>';
-								for ($j = 0; $j < 3; $j++){
-									echo '<td>'.$names[$i][$j].'</td>';
-								}
-								echo '</tr';
-							}
-							echo '</table>';
 							fclose($file);
+							echo '<table border = 1>';
+							if(sizeof($names) !== 0){
+								for ($i = 0; $i < sizeof($names); $i++){
+									echo '<tr>';
+									for ($j = 0; $j < 3; $j++){
+										echo '<td>'.$names[$i][$j].'</td>';
+									}
+								echo "<td><button id = '". $i . "' onclick= verifyUser('".$names[$i][2]."')>This is me</button>";
+								echo '</tr>';
+								}
+							echo '</table>';
+							}
+							else{
+								echo "<div class = 'table'>No users found, try again!</div>";
+							}	
 						}
-						
 							
 						else{
 							echo "File Not Found!";
