@@ -1,0 +1,32 @@
+# Week of 11/17/2019-11/23/2019
+
+## Meeting Start Time
+
+2019/11/20/13:40
+
+## Meeting End Time
+
+2019/11/20/----
+
+## Location
+
+Library
+
+## Present
+
+Matt, Kylie, Ian
+
+## Minute Recorder
+
+Ian
+
+## Topics Discussed
+
+-Create a test class
+
+## Things Clarified
+
+Making plans for second itteration:
+For this next iteration, we are planning to incorporate EventBrite API and start work on the manager dashboard.
+With the API we will be calling the event name and the attendee’s information to the csv.
+The manager dashboard would download csv file, create new csv file,  update csv file, and be able to add new events. 
