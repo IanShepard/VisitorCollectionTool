@@ -4,7 +4,7 @@ Line 15: If email not matched, push line to be written to new temp csv unchanged
 Line 21: Open temp csv file for modified lines
 Line 29: Overwrite old csv and set proper permissions
 
-##checkin.css
+## checkin.css
 Styling for checkin.php
 
 ## checkin.js
