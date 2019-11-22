@@ -11,7 +11,7 @@ In order to obtain the same developer's environment as it was initially coded in
 - Download and install the latest version of XAMPP for your operating system with the default installation settings
 
 
-##FTP client for remoter server testing
+## FTP client for remoter server testing
 
 - Goto https://winscp.net/eng/download.php
 
