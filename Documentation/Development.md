@@ -1,8 +1,9 @@
 # Develpoer's Documentation
 
+
 In order to obtain the same developer's environment as it was initially coded in, you will need several programs and tools:
 
-## Any text editor like Sublime or your favorite simple text editor like Notepad++
+## Your favorite simple text editor like Sublime or Notepad++
 
 ## XAMPP for local server testing
 
