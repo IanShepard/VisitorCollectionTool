@@ -1,4 +1,4 @@
-#User Manual
+# User Manual
 
 It is expected that a manager has already opened the Check In page.
 
