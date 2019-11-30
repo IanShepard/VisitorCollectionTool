@@ -4,11 +4,11 @@ C495 Capstone project
 Attendance tracker for Innovation Connector
 
 # Team Members:
--Ian Shepard 
+- Ian Shepard 
 
--Kylie Harmon
+- Kylie Harmon
 
--Matthew Nessel
+- Matthew Nessel
 
 # Client Partner Information:
 
