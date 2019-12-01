@@ -11,6 +11,13 @@ Attendance tracker for Innovation Connector
 - Matthew Nessel
 
 # Client Partner Information:
+CEO and main connection point:
+
+Ted Baker tbaker@bsu.edu
+
+Assistant:
+
+???
 
 # Links:
 [Clubhouse.io](https://app.clubhouse.io/visitorcollectiontools/stories/space/6/everything)
