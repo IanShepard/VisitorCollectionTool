@@ -24,5 +24,7 @@ Assistant:
 
 [Project details template](https://github.com/hergin/CapstoneProjectTemplate)
 
+[EventBrite documentation](https://www.eventbrite.com/platform/api#/introduction/about-our-api)
+
 # Code Repositories:
 [Main source code](https://github.com/mdnessel/VisitorCollectionToolSourceCode)
