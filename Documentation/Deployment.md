@@ -4,7 +4,7 @@
 
 Visitor Collection Tools runs on an Apache server. If you already have an Apache server running goto Install and Updates
 
-If you do not have a server or want to start a new one, then you will need to use XAMPP. Download and install [XAMPP](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings. htdocs is a folder which can run the code and make it available on the network. 
+If you do not have a server or want to start a new one, then you will need to use XAMPP. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings. C:/xampp/htdocs is there server root folder where you put all of the files for web pages and any files that support those web pages.
 
 ## Install and Updates
 
@@ -24,6 +24,6 @@ The server is now running and can be accessed through localhost.
 
 ## Stoping the server
 
-Go to the XAMPP control panel and click stop for Apache. The server is no longer running
+Go to the xampp control panel and click stop for Apache. The server is no longer running
 
 ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/xampp_stop.jpg)
