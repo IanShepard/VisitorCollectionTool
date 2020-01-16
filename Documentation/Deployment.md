@@ -2,13 +2,15 @@
 
 ## Setting up the server
 
-Visitor Collection Tools runs on an Apache server. If you already have an Apache server running simply copy all of the extracted files into your publicly visible server folder.
+Visitor Collection Tools runs on an Apache server. If you already have an Apache server running goto Install and Updates
 
-If you do not have a server or want to start a new one, then you will need to use XAMPP. [Download](https://www.apachefriends.org/index.html) and install XAMPP onto the server device. It is suggested to use the default install location which is the root folder in your C drive. htdocs is a folder which can run the code and make it available on the network. 
+If you do not have a server or want to start a new one, then you will need to use XAMPP. Download and install [XAMPP](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings. htdocs is a folder which can run the code and make it available on the network. 
 
-## Install and updates
+## Install and Updates
 
-Download the latest version of [Visitor Collection Tool]() and extract the zip file. Copy all of the extracted files into ..\xampp\htdocs. If you are updating to a newer version, then overwrite all of the previous files.
+Goto [Visitor Collection Tool](https://github.com/mdnessel/VisitorCollectionToolSourceCode) and download zip.
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/download_zip.jpg)
+extract the zip file. Copy all of the extracted files into ..\xampp\htdocs. If you are updating to a newer version, then overwrite all of the previous files.
 
 ## Starting the server
 
