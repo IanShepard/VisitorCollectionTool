@@ -1,4 +1,4 @@
-# Develpoer's Documentation
+# Developer's Documentation
 
 
 In order to obtain the same developer's environment as it was created in, you will need several programs and tools and run some scrips. This document will describe which applications need to be installed and guid you through the setup process so that you too can work on this project!
