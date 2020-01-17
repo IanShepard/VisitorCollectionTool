@@ -1,5 +1,6 @@
 - This project uses phpunit for unit testing.
 - To run these tests, the user must first follow the development documentation for the project.
+- Before running the tests it will be necessary for the user to run the SQL script named addTestData.sql in MySQL workbench.
 - If user follows the Development.md documentation correctly, phpunit should be installed with XAMPP.
 - To run the unit tests:
   - Windows users must set the phpunit executable to their system path environment variable.
