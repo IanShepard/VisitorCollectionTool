@@ -4,7 +4,7 @@
 
 Visitor Collection Tools runs on an Apache server. If you already have an Apache server running goto Install and Updates
 
-If you do not have a server or want to start a new one, then you will need to use XAMPP. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings. C:/xampp/htdocs is there server root folder where you put all of the files for web pages and any files that support those web pages.
+If you do not have a server or want to start a new one, then you will need to use XAMPP. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings, but the main required components are Apache, PHP, and MySQL. C:/xampp/htdocs is there server root folder where you put all of the files for web pages and any files that support those web pages.
 
 ## Install and Updates
 
@@ -23,6 +23,14 @@ Run xampp-control.exe in C:\xampp. Once running, click the start button for Apac
 ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/xampp_start.jpg)
 
 The server is now running and can be accessed through localhost.
+
+## MySQL Workbench
+
+Download and install [MySQL workbench](https://dev.mysql.com/downloads/workbench/). Connect to database using username root and no password unless changed you setup a password during installation. Download these few short scripts:
+
+[createDBTables.sql](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/createDBTables.sql)
+
+Open and run script called createDBTables.sql to create database and base tables.
 
 ## Stopping the server
 
