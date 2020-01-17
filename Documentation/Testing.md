@@ -1,0 +1,10 @@
+- This project uses phpunit for unit testing.
+- To run these tests, the user must first follow the development documentation for the project.
+- If user follows the Development.md documentation correctly, phpunit should be installed with XAMPP.
+- To run the unit tests:
+  - Windows users must set the phpunit executable to their system path environment variable.
+  - To do so, the user must add the folder called php directly under their xampp installation to their system path.
+  - When this is completed simply open a command prompt/shell and navigate to the tests directory under [Xampp Installation]/htdocs/tests.
+  - Under tests, simply type phpunit [name of unit tests file] where the file given is any of the test scripts in the directory.
+  - An example would be: phpunit checkRegistrationTest.php
+  - The command prompt will then give the results of the tests.
