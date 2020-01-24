@@ -20,3 +20,10 @@ CREATE TABLE `attendee`(
 PRIMARY KEY(`Id`), 
 FOREIGN KEY(`Eventid`) REFERENCES event(`Eventid`)) 
 ENGINE = InnoDB;
+                                        
+CREATE TABLE `user`(
+`Username` VARCHAR(20) NOT NULL PRIMARY KEY, 
+`Password` VARCHAR(50) NOT NULL) 
+ENGINE = InnoDB;
+
+INSERT INTO user VALUES("admin", "e4f4cc82436de1dee9dc22c7d46567bb6e4011bd");
