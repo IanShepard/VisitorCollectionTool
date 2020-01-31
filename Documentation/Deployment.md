@@ -8,13 +8,13 @@ If you do not have a server or want to start a new one, then you will need to us
 
 ## Install and Updates
 
-For Version Control of the project, open a command prompt with Git installed, and navigate to the htdocs folder under your xampp installation. When here type the command git init, to create a local git reference. Then type git remote add origin https://github.com/mdnessel/VisitorCollectionToolSourceCode.git. After this is completed, type git pull origin master to add the project to the directory.
-
-If version control is not needed for local development, go to [Visitor Collection Tool](https://github.com/mdnessel/VisitorCollectionToolSourceCode) and download zip.
+For application deployment, navigate to [Visitor Collection Tool](https://github.com/mdnessel/VisitorCollectionToolSourceCode) select "Clone or download" and then select "Download Zip".
 
 ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/download_zip.jpg)
 
-extract the zip file into C:\xampp\htdocs. If you are updating to a newer version, then overwrite all of the previous files.
+extract the zip file into C:\xampp\htdocs. If you are updating to a newer version, then overwrite all of the previous files. Make sure when extracting that the root folder called "VistorCollectionSourceCode" is not in the htdocs directory. It should simply be the contents of that folder in the htdocs directory.
+
+Before launching the application, be sure to setup the configuration file in the root of htdocs called config.ini. This step is only necessary for changing the EventBrite API key, and for changing the default MySQL configuration if necessary.
 
 ## Starting the server
 
@@ -24,9 +24,13 @@ Run xampp-control.exe in C:\xampp. Once running, click the start button for Apac
 
 The server is now running and can be accessed through localhost.
 
+To launch the webapp simply input localhost to the URL bar in your preferred internet browser if the application is running on the same machine as the server. If the server is running on a different machine, navigate to the URL/IP Address that the XAMPP server is running on.
+
+For username/password access email mdnessel@bsu.edu for the proper credentials.
+
 ## MySQL Workbench
 
-Download and install [MySQL workbench](https://dev.mysql.com/downloads/workbench/). Connect to database using username root and no password unless changed you setup a password during installation. Download these few short scripts:
+Download and install [MySQL workbench](https://dev.mysql.com/downloads/workbench/). Connect to the database server using username root and no password unless you setup a password during installation. Download these few short scripts:
 
 [createDBTables.sql](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/createDBTables.sql)
 
