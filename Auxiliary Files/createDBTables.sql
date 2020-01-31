@@ -4,7 +4,8 @@ USE `icdb`;
 
 CREATE TABLE `event`(
 `Eventid` int(6) NOT NULL AUTO_INCREMENT, 
-`Name` VARCHAR(50) NOT NULL, 
+`Name` VARCHAR(50) NOT NULL,
+`Description` TEXT,
 `Date` date NOT NULL, 
 PRIMARY KEY(`Eventid`)) 
 ENGINE = InnoDB;
