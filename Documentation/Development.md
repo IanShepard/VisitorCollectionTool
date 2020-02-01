@@ -35,7 +35,7 @@ Download and install [MySQL workbench](https://dev.mysql.com/downloads/workbench
 
 [sampleData.sql](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/sampleData.sql)
 
-Open and run script called createDBTables.sql to create database and base tables. Open and run sampleData.sql for sample data if desired.
+Open and run script called createDBTables.sql to create database and base tables. You may then optionally open and run sampleData.sql for sample data if desired.
 
 ## Launching the application
 
