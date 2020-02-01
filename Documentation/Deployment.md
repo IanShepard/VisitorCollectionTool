@@ -2,7 +2,7 @@
 
 ## Setting up the server
 
-Visitor Collection Tools runs on an Apache server. If you already have an Apache server running goto Install and Updates
+Visitor Collection Tools runs on an Apache server. If you already have an Apache server running go to Install and Updates
 
 If you do not have a server or want to start a new one, then you will need to use XAMPP. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings, but the main required components are Apache, PHP, and MySQL. C:/xampp/htdocs is there server root folder where you put all of the files for web pages and any files that support those web pages.
 
@@ -24,7 +24,7 @@ Run xampp-control.exe in C:\xampp. Once running, click the start button for Apac
 
 The server is now running and can be accessed through localhost.
 
-To launch the webapp simply input localhost to the URL bar in your preferred internet browser if the application is running on the same machine as the server. If the server is running on a different machine, navigate to the URL/IP Address that the XAMPP server is running on.
+To launch the web app, type "localhost" into the URL bar in your preferred internet browser if the application is running on the same machine as the server. If the server is running on a different machine, navigate to the URL/IP Address that the XAMPP server is running on.
 
 For username/password access email mdnessel@bsu.edu for the proper credentials.
 
