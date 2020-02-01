@@ -1,6 +1,6 @@
 # User Manual
 
-Greetings! This manual will walk you through all the features and functionalities that Visitor Collection Tool has to offer. The main objective of this web-based software is to be an easy-to-use attendance tracking tool for events. It is designed with the use of a portable device - like a tablet - to be passes around a classroom or be placed at the entrance of a room so that each attendee may check themselves into an event selected by the host or proctor for that event.
+Greetings! This manual will walk you through all the features and functionalities that Visitor Collection Tool has to offer. The main objective of this web-based software is to be an easy-to-use attendance tracking tool for events. It is designed with the use of a portable device - like a tablet - to be passed around a classroom or be placed at the entrance of a room so that each attendee may check themselves into an event selected by the host or proctor for that event.
 
 ## Getting started
 
@@ -10,7 +10,7 @@ In order to obtain the username and password, please contact mdnessel@bsu.edu. E
 
 ## Navigation
 
-There are two views to the system: Manager and Attendee. The Manager view is for the host or proctor of the event. Managers will be able to view and create events, add and remove attendees to the event, view the attendance records for each event, and set the event for attendees to check into. The Attendee view is for the people attending events. They can check into and register for the event selected by the manager.
+There are two views to the system: Manager and Attendee. The Manager view is for the host or proctor of the event. Managers will be able to view and create events, add attendees to the event, view the attendance records for each event, and set the event for attendees to check into. The Attendee view is for the people attending events. They can check into and register for the event selected by the manager.
 
 The Manager view has a navigation menu in the top left of the page. This allows you to navigate between the Manager Dashboard and Setup pages. In the Manager Dashboard click on an event name to see the registered attendees’ details for that event. Click EVENTS in the navigation menu to return to the Manager Dashboard. By clicking SET UP you will go to the setup page where you can set which event attendees will be attending. After selecting an event from the dropdown and clicking Submit, you are brought to the Check In page of the Attendee view. 
 
