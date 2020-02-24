@@ -8,7 +8,7 @@ CREATE TABLE `event`(
 `Name` VARCHAR(50) NOT NULL,
 `Description` TEXT,
 `Date` DATE NOT NULL, 
-`Ebid` int(12) UNIQUE,
+`Ebid` BIGINT(20) UNIQUE,
 PRIMARY KEY(`Eventid`)) 
 ENGINE = InnoDB;
 
@@ -17,7 +17,8 @@ CREATE TABLE `attendee`(
 `Fname` VARCHAR(30) NOT NULL, 
 `Lname` VARCHAR(30) NOT NULL, 
 `Phone` VARCHAR(30) NOT NULL,
-`Email` VARCHAR(50) NOT NULL, 
+`Email` VARCHAR(50) NOT NULL,
+`Ebid` BIGINT(20) UNIQUE,
 PRIMARY KEY(`Id`))
 ENGINE = InnoDB;
 
