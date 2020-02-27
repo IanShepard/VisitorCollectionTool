@@ -10,6 +10,8 @@
   - To do so, the user must add the folder called php directly under their xampp installation to their system path.
   - When this is completed simply open a command prompt/shell and navigate to the tests directory under [Xampp Installation]/htdocs/tests.
   - Under tests, simply type phpunit [name of unit tests file] where the file given is any of the test scripts in the directory.
+  
   ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/PHPUnit.jpg)
+  
   - An example would be: phpunit checkRegistrationTest.php
   - The command prompt will then give the results of the tests.
