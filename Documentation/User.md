@@ -18,21 +18,27 @@ In the Attendee view the navigation menu is hidden in the three-bars button in t
 
 ## Create a new event
 
-Initially, there are no events available. To create an event, go to the Manager Dashboard page titled Events. 
+Initially, there are no events available. 
 
-Step 1) Click Add New Event at the top of the page. 
+Step 1) Go to the Manager Dashboard page titled Events. 
 
-Step 2) Fill in the appropriate fields for the event. You may leave the Description field blank. Be sure that you follow the date format of YYYY-MM-DD where Y is for years, M is for month, and D is for day. You must use both digits for the month and day. E.g. if you want to have an event for February 4, 2020 then enter "2020-02-04". 
+Step 2) Click Add New Event at the top of the page. 
 
-Step 3) Click save. The event will appear at the bottom of the list.
+Step 3) Fill in the appropriate fields for the event. You may leave the Description field blank. Be sure that you follow the date format of YYYY-MM-DD where Y is for years, M is for month, and D is for day. You must use both digits for the month and day. E.g. if you want to have an event for February 4, 2020 then enter "2020-02-04". 
+
+Step 4) Click save. The event will appear at the bottom of the list.
 
 ## Add attendees for an event
 
-Step 1) To add an attendee for an event, go to the Manager Dashboard page titled Events. 
+Initally there are no attendees for an event
+
+Step 1) Go to the Manager Dashboard page titled Events. 
 
 Step 2) Click on the name of the event that you want to add an attendee to. 
 
-Step 3) Then click on the Add Attendee button on the top of the page. Fill in the appropriate fields for the attendee. All fields are required. 
+Step 3) Then click on the Add Attendee button on the top of the page. 
+
+Step 4) Fill in the appropriate fields for the attendee. All fields are required. 
 
 Step 4) Click save. The new attendee will appear at the bottom of the list.
 
