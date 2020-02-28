@@ -9,15 +9,15 @@ Download and install [PHPStrom](https://www.jetbrains.com/phpstorm/download/#sec
 
 Next, setup the environment variables. For Windows operating systems, open the start menu and search for "Environment Variables". A window will display like below. Click Environment Variables.
 
-[](developers_documentation_1)
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_1.png)
 
 In this window you should have 2 paths set. The first has Variable Name "PHPStrorm" and the Variable Value is the bin (binary) folder under the installation folder of PHPStrom. It should be similar to this: "C:\Program Files\JetBrains\PhpStorm 2019.3.2\bin". If it is already set, then you may goto the next step. If you do not have it, then you need to click new and set the apropriate entries.
 
-[](devolopers_documentation_2)
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_2.png)
 
 The second is Variable Name "Path" and Value "%PhpStrom%". It is very likely that this variable already exist and has many values so you may need to double click the "Path" to see the full list of values as shown below. If it exists, then you may go to the next step. If you still don't see the Value listed then in the Edit environment variables window, click New and put "%PhpStrom%" in the new entry.
 
-[](developers_documentation_3)
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_3.png)
 
 PHPStorm is now installed on your machine.
 
@@ -52,7 +52,7 @@ But before please shutdown the apache and mysql.
 
 Step 1: Open PHPStorm. In the welcome window, click "Get from Version Control"
 
-![](devolopers_documentation_4)
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_4.png)
 
 Step 2: In the version control dropdown, select Git
 
@@ -60,7 +60,7 @@ Step 3: in the URL filed use the GitHub source code repository "https://github.c
 
 In the Directory field, use "C:\xampp\htdocs\VisitorCollectionTool"
 
-![](devolopers_documentation_5)
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_5.png)
 
 Open the project
 
@@ -72,13 +72,13 @@ Step 2) Open the project in PHPStorm, follow [this guide](https://www.jetbrains.
 
 Step 3) Creating the database. Open a new console from the database sidebar. You can get there my going to View -> Tool Windows -> Database. Right click schemas and select New -> Console
 
-![](devolopers_documentation_6)
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_6.png)
 
 Copy [this](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/createDBTables.sql) SQL query and paste it into the console and execute it by clicking the green arrow at the top left of the text editor area or by selecting all of the text and pressing ALT+ENTER. After the query is finnished, you will be able to see the newly created database named icdb (which stands for Innovation Connector DataBase) and tables under icdb in the database sidebar.
 
 Step 4) Adding test data. Copy [this](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/sampleData.sql) SQL qurry and paste this into the console (delete the previous query from the console first). Execute the query. By double clicking on a table name in the database sidebar, you should be able to see some entries in each of the tables.
 
-![](devolopers_documentation_7 Other account)
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_7.png)
 
 ## Launching the application
 
