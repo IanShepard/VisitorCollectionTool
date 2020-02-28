@@ -5,7 +5,7 @@
 
 - When accessed, if prompted for login at any time simply use admin as the username and leave the password blank.
 
-Select the tab that says "SQL" and copy/paste the contents of [addTestData.sql] (https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/addTestData.sql) into the text space.
+- Select the tab that says "SQL" and copy/paste the contents of [addTestData.sql](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/addTestData.sql) into the text space.
 
 ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/phpmyadmin_sql1.jpg)
 
