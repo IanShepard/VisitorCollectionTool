@@ -23,42 +23,42 @@ PHPStorm is now installed on your machine.
 
 ## XAMPP for local server testing
 
-Download and install [xampp](https://www.apachefriends.org/download.html) for your operating system. You can use the readme in the downloaded folder to complete the installation, but the QUICK INSTALLATION has been copied here for your convenience. If you would like more information on XAMPP please refer to the full readme text
+Step 1) Download and install [xampp](https://www.apachefriends.org/download.html) for your operating system. You can use the readme in the downloaded folder to complete the installation, but the QUICK INSTALLATION has been copied here for your convenience. If you would like more information on XAMPP please refer to the full readme text
 
-* QUICK INSTALLATION:
-
-[NOTE: Unpack the package to your USB stick or a partition of your choice.
-There it must be on the highest level like E:\ or W:\. It will
-build E:\xampp or W:\xampp or something like this. Please do not use the "setup_xampp.bat" for an USB stick installation!]
-
-Step 1: Unpack the package into a directory of your choice. Please start the
-"setup_xampp.bat" and beginning the installation. Note: XAMPP makes no entries in the windows registry and no settings for the system variables.
-
-Step 2: If installation ends successfully, start the Apache 2 with
-"apache_start".bat", MySQL with "mysql_start".bat". Stop the MySQL Server with "mysql_stop.bat". For shutdown the Apache HTTPD, only close the Apache Command (CMD). Or use the fine XAMPP Control Panel with double-click on "xampp-control.exe"!
-
-Step 3: Start your browser and type http://127.0.0.1 or http://localhost in the location bar. You should see our pre-made
-start page with certain examples and test screens.
-
-Step 4: PHP (with mod_php, as *.php), Perl by default with *.cgi, SSI with *.shtml are all located in => C:\xampp\htdocs\.
-Examples:
-- C:\xampp\htdocs\test.php => http://localhost/test.php
-- C:\xampp\htdocs\myhome\test.php => http://localhost/myhome/test.php
-
-Step 5: XAMPP UNINSTALL? Simply remove the "xampp" Directory.
-But before please shutdown the apache and mysql.
+> * QUICK INSTALLATION:
+> 
+> [NOTE: Unpack the package to your USB stick or a partition of your choice.
+> There it must be on the highest level like E:\ or W:\. It will
+> build E:\xampp or W:\xampp or something like this. Please do not use the "setup_xampp.bat" for an USB stick installation!]
+> 
+> Step 1: Unpack the package into a directory of your choice. Please start the
+> "setup_xampp.bat" and beginning the installation. Note: XAMPP makes no entries in the windows registry and no settings for the system > variables.
+> 
+> Step 2: If installation ends successfully, start the Apache 2 with
+> "apache_start".bat", MySQL with "mysql_start".bat". Stop the MySQL Server with "mysql_stop.bat". For shutdown the Apache HTTPD, only > > close the Apache Command (CMD). Or use the fine XAMPP Control Panel with double-click on "xampp-control.exe"!
+> 
+> Step 3: Start your browser and type http://127.0.0.1 or http://localhost in the location bar. You should see our pre-made
+> start page with certain examples and test screens.
+> 
+> Step 4: PHP (with mod_php, as *.php), Perl by default with *.cgi, SSI with *.shtml are all located in => C:\xampp\htdocs\.
+> Examples:
+> - C:\xampp\htdocs\test.php => http://localhost/test.php
+> - C:\xampp\htdocs\myhome\test.php => http://localhost/myhome/test.php
+> 
+> Step 5: XAMPP UNINSTALL? Simply remove the "xampp" Directory.
+> But before please shutdown the apache and mysql.
 
 ## Cloning the GitHub repository
 
-Step 1: Open PHPStorm. In the welcome window, click "Get from Version Control"
+Step 1) Open PHPStorm. In the welcome window, click "Get from Version Control"
 
 ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_4.png)
 
-Step 2: In the version control dropdown, select Git
+Step 2) In the version control dropdown, select Git
 
-Step 3: in the URL filed use the GitHub source code repository "https://github.com/mdnessel/VisitorCollectionToolSourceCode.git"
+Step 3) in the URL filed use the GitHub source code repository "https://github.com/mdnessel/VisitorCollectionToolSourceCode.git"
 
-In the Directory field, use "C:\xampp\htdocs\VisitorCollectionTool"
+In the Directory field, use "C:\xampp\temp"
 
 ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/developer_documentation_5.png)
 
@@ -82,12 +82,10 @@ Step 4) Adding test data. Copy [this](https://github.com/IanShepard/VisitorColle
 
 ## Launching the application
 
-Run xampp-control.exe in C:\xampp. Once running, click the start button for Apache and click the start button for the MySQL server. 
+Step 1) Run xampp-control.exe in C:\xampp. Once running, click the start button for Apache and click the start button for the MySQL server. The server is now running and can be accessed through localhost.
 
 ![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/xampp_start.jpg)
 
-The server is now running and can be accessed through localhost.
-
-To launch the webapp simply input localhost to the URL bar in your preferred internet browser.
+Step 2) To launch the webapp simply input localhost to the URL bar in your preferred internet browser.
 
 For username and password for the application access email mdnessel@bsu.edu for the proper credentials.
