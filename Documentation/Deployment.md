@@ -4,7 +4,7 @@
 
 Visitor Collection Tools runs on an Apache server. If you already have an Apache server running go to Install and Updates
 
-If you do not have a server or want to start a new one, then you will need to use XAMPP. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings, but the main required components are Apache, PHP, and MySQL. C:/xampp/htdocs is there server root folder where you put all of the files for web pages and any files that support those web pages.
+If you do not have a server or want to start a new one, then you will need to use XAMPP or an equivalent WAMP/LAMP web stack. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings, but the main required components are Apache, PHP, PHPMyAdmin, and MySQL. C:/xampp/htdocs is there server root folder where you put all of the files for web pages and any files that support those web pages.
 
 ## Install and Updates
 
@@ -28,13 +28,19 @@ To launch the web app, type "localhost" into the URL bar in your preferred inter
 
 For username/password access email mdnessel@bsu.edu for the proper credentials.
 
-## MySQL Workbench
+## MySQL
 
-Download and install [MySQL workbench](https://dev.mysql.com/downloads/workbench/). Connect to the database server using username root and no password unless you setup a password during installation. Download these few short scripts:
+Access the [PHPMyAdmin Dashboard](localhost/phpmyadmin)
 
-[createDBTables.sql](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/createDBTables.sql)
+When accessed, if prompted for login at any time simply use admin as the username and leave the password blank.
 
-Open and run script called createDBTables.sql to create database and base tables.
+Select the tab that says "SQL" and copy/paste the contents of [createDBTables.sql](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/createDBTables.sql) into the text space.
+
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/phpmyadmin_sql1.jpg)
+
+Then, click on the go button to create the DB for the project.
+
+![](https://github.com/IanShepard/VisitorCollectionTool/blob/master/Auxiliary%20Files/images/documentation/phpmyadmin_sql2.jpg)
 
 ## Stopping the server
 
