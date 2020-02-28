@@ -30,7 +30,7 @@ For username/password access email mdnessel@bsu.edu for the proper credentials.
 
 ## MySQL
 
-Access the [PHPMyAdmin Dashboard](localhost/phpmyadmin)
+Access the [PHPMyAdmin Dashboard](http://localhost/phpmyadmin)
 
 When accessed, if prompted for login at any time simply use admin as the username and leave the password blank.
 
