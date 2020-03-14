@@ -19,6 +19,7 @@ CREATE TABLE `attendee`(
 `Phone` VARCHAR(30) NOT NULL,
 `Email` VARCHAR(50) NOT NULL,
 `Ebid` BIGINT(20) UNIQUE,
+`Gender` VARCHAR(10),
 PRIMARY KEY(`Id`))
 ENGINE = InnoDB;
 
