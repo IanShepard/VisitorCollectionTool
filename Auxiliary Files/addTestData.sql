@@ -6,11 +6,11 @@ INSERT INTO event(Eventid,Name,Date, Description) VALUES(1002, 'Test Event 3', '
 INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10000, 'Bob', 'Jones', '555-5555', 'bjones@gmail.com', 'Male');
 INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10001, 'Mary', 'Jane', '555-5555', 'mjane@gmail.com', 'Female');
 INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10002, 'John', 'Smith', '555-5555', 'jsmith@gmail.com', 'Male');
-INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10003, 'Bob', 'Jones', '555-5555', 'bjones2@gmail.com', 'male');
+INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10003, 'Bob', 'Jones', '555-5555', 'bjones2@gmail.com', 'Male');
 INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10004, 'Jacob', 'Jacob', '555-0001', 'momemail@gmail.com', 'Male');
 INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10005, 'Abe', 'Jacob', '555-0001', 'dademail@yahoo.com', 'Female');
 INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Gender`) VALUES(10006, 'Zach', 'Martin', '(123) 555-0002', 'momemail@gmail.com', 'Male');
-INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Ebid`, `Gender`) VALUES(10007, 'Jacob', 'Abe', '(123) 555-0002', 'jombajuice@bsu.edu', 1, 'male');
+INSERT INTO attendee(`Id`, `Fname`,`Lname`, `Phone`, `Email`, `Ebid`, `Gender`) VALUES(10007, 'Jacob', 'Abe', '(123) 555-0002', 'jombajuice@bsu.edu', 1, 'Male');
 
 
 INSERT INTO attendance(`Attendeeid`, `Eventid`, `Registered`) VALUES(10000, 999, TRUE);
