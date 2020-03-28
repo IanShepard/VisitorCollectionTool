@@ -4,7 +4,7 @@
 
 Visitor Collection Tools runs on an Apache server. If you already have an Apache server running go to Install and Updates
 
-If you do not have a server or want to start a new one, then you will need to use XAMPP or an equivalent WAMP/LAMP web stack. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings, but the main required components are Apache, PHP, PHPMyAdmin, and MySQL. C:/xampp/htdocs is there server root folder where you put all of the files for web pages and any files that support those web pages.
+If you do not have a server or want to start a new one, then you will need to use XAMPP or an equivalent WAMP/LAMP web stack. Download and install [xampp](https://www.apachefriends.org/index.html) onto the server device. It is suggested to use default installation settings, but the main required components are Apache, PHP, PHPMyAdmin, and MySQL. C:/xampp/htdocs is the server root folder where you put all of the files for web pages and any files that support those web pages.
 
 ## Install and Updates
 
