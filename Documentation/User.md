@@ -40,7 +40,39 @@ Step 3) Then click on the Add Attendee button on the top of the page.
 
 Step 4) Fill in the appropriate fields for the attendee. All fields are required. 
 
-Step 4) Click save. The new attendee will appear at the bottom of the list.
+Step 5) Click save. The new attendee will appear at the bottom of the list.
+
+## Edit attendee information
+
+You can edit attendee information by clicking on an attendees name on the event page
+
+Step 1) Click on an attendee's name 
+
+Step 2) Select the "edit" button 
+
+Step 3) Edit the fields in the table to your liking 
+
+Step 4) Select the save button
+
+## Delete attendee information
+
+You can delete attendee information by clicking on an attendees name on the event page
+
+Step 1) Click on an attendee's name 
+
+Step 2) Select the "delete" button. This will delete the attendee and all attendance records related!
+
+Step 3) Select "OK".
+
+## Delete event information
+
+You can delete attendee information by clicking on an event's name on the event page
+
+Step 1) Click on an event's name 
+
+Step 2) Select the "delete" button. This will delete the event and all attendance records related! 
+
+Step 3) Select "OK" 
 
 ## Setting the event
 
